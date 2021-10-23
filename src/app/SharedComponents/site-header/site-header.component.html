@@ -1,4 +1,3 @@
-
 <!--  ==========  -->
 <!--  = Header =  -->
 <!--  ==========  -->
@@ -11,7 +10,7 @@
       <!--  ==========  -->
       <div class="span7">
         <a class="brand" href="index.html">
-          <img src="assets/images/logo.png" alt="Webmarket Logo" width="48" height="48" />
+          <img src="assets/images/logo.png" alt="Webmarket Logo" width="48" height="48"/>
           <span class="pacifico">Webmarket</span>
           <span class="tagline">قالب فروشگاهی HTML قدرتمند</span>
         </a>
@@ -24,7 +23,8 @@
         <div class="topmost-line">
           <div class="lang-currency">
             <div class="dropdown js-selectable-dropdown">
-              <a data-toggle="dropdown" class="selected" href="#"><span class="js-change-text"><i class="famfamfam-flag-gb"></i> انگلیسی (EN)</span> <b class="caret"></b></a>
+              <a data-toggle="dropdown" class="selected" href="#"><span class="js-change-text"><i
+                class="famfamfam-flag-gb"></i> انگلیسی (EN)</span> <b class="caret"></b></a>
               <!-- for all available country flags look the styles in lib/components/_flags.scss -->
               <ul class="dropdown-menu js-possibilities" role="menu" aria-labelledby="dLabel">
                 <li><a href="#"><i class="famfamfam-flag-gb"></i> انگلیسی (EN)</a></li>
@@ -35,7 +35,8 @@
               </ul>
             </div>
             <div class="dropdown js-selectable-dropdown">
-              <a data-toggle="dropdown" class="selected" href="#"><span class="js-change-text">USD ($)</span> <b class="caret"></b></a>
+              <a data-toggle="dropdown" class="selected" href="#"><span class="js-change-text">USD ($)</span> <b
+                class="caret"></b></a>
               <ul class="dropdown-menu js-possibilities" role="menu" aria-labelledby="dLabel">
                 <li><a href="#">USD ($)</a></li>
                 <li><a href="#">EUR (€)</a></li>
@@ -86,7 +87,7 @@
           <!--  ==========  -->
           <div class="nav-collapse collapse">
             <ul class="nav" id="mainNavigation">
-              <li class="dropdown active">
+              <li class="dropdown" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
                 <a [routerLink]="''" class="dropdown-toggle"> خانه <b class="caret"></b> </a>
                 <ul class="dropdown-menu">
                   <li class="dropdown active">
@@ -99,7 +100,8 @@
                     </ul>
                   </li>
                   <li class="dropdown">
-                    <a href="index-boxed-solid.html"><i class="icon-caret-left pull-right visible-desktop"></i> ورژن boxed</a>
+                    <a href="index-boxed-solid.html"><i class="icon-caret-left pull-right visible-desktop"></i> ورژن
+                      boxed</a>
                     <ul class="dropdown-menu">
                       <li><a href="index-boxed-solid.html">Boxed - با رنگ پس زمینه ثابت</a></li>
                       <li><a href="index-boxed-pattern.html">Boxed - با پس زمینه الگو</a></li>
@@ -131,7 +133,8 @@
                 <ul class="dropdown-menu">
                   <li><a href="icons.html">آیکن ها</a></li>
                   <li class="dropdown">
-                    <a href="features.html" class="dropdown-toggle"><i class="icon-caret-left pull-right visible-desktop"></i> همه امکانات</a>
+                    <a href="features.html" class="dropdown-toggle"><i
+                      class="icon-caret-left pull-right visible-desktop"></i> همه امکانات</a>
                     <ul class="dropdown-menu">
                       <li><a href="features.html#headings">سرخط ها</a></li>
                       <li><a href="features.html#alertBoxes">جعبه های هشدار</a></li>
@@ -149,8 +152,8 @@
                   </li>
                 </ul>
               </li>
-              <li><a  [routerLink]="'about-us'">درباره ما</a></li>
-              <li><a [routerLink]="'contact-us'">تماس با ما</a></li>
+              <li routerLinkActive="active"><a [routerLink]="'about-us'">درباره ما</a></li>
+              <li routerLinkActive="active"><a [routerLink]="'contact-us'">تماس با ما</a></li>
             </ul>
 
             <!--  ==========  -->
@@ -180,7 +183,7 @@
 
               <div class="item-in-cart clearfix">
                 <div class="image">
-                  <img src="assets/images/dummy/cart-items/cart-item-1.jpg" width="124" height="124" alt="cart item" />
+                  <img src="assets/images/dummy/cart-items/cart-item-1.jpg" width="124" height="124" alt="cart item"/>
                 </div>
                 <div class="desc">
                   <strong><a href="product.html">کلاه زمستانی</a></strong>
@@ -197,7 +200,7 @@
 
               <div class="item-in-cart clearfix">
                 <div class="image">
-                  <img src="assets/images/dummy/cart-items/cart-item-2.jpg" width="124" height="124" alt="cart item" />
+                  <img src="assets/images/dummy/cart-items/cart-item-2.jpg" width="124" height="124" alt="cart item"/>
                 </div>
                 <div class="desc">
                   <strong><a href="product.html">کمربند اسپورت</a></strong>
@@ -214,7 +217,7 @@
 
               <div class="item-in-cart clearfix">
                 <div class="image">
-                  <img src="assets/images/dummy/cart-items/cart-item-3.jpg" width="124" height="124" alt="cart item" />
+                  <img src="assets/images/dummy/cart-items/cart-item-3.jpg" width="124" height="124" alt="cart item"/>
                 </div>
                 <div class="desc">
                   <strong><a href="product.html">کیف پول مردانه</a></strong>
@@ -244,7 +247,8 @@
                 </div>
               </div>
               <div class="proceed">
-                <a href="checkout-step-1.html" class="btn btn-danger pull-right bold higher">تصویه حساب <i class="icon-shopping-cart"></i></a>
+                <a href="checkout-step-1.html" class="btn btn-danger pull-right bold higher">تصویه حساب <i
+                  class="icon-shopping-cart"></i></a>
                 <small>هزینه ارسال بر اساس منطقه جغرافیایی محاسبه میشود. <a href="#">اطلاعات بیشتر</a></small>
               </div>
             </div>

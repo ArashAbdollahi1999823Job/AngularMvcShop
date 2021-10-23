@@ -31,9 +31,7 @@ public domainName:string=DomainName;
         setInterval(()=>{
           homeSlider();
         },100)
-
       }
-
     });
 }
 }

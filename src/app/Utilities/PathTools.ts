@@ -2,4 +2,4 @@ import {environment} from "../../environments/environment";
 
 
 
-export const DomainName=environment.production ? "http://www.mode.com":"https://localhost:44300";
+export const DomainName=environment.production ? "https://www.mode.com":"https://localhost:44300";
